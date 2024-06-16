@@ -1,0 +1,91 @@
+/* Shared Styles */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Work Sans", sans-serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* Header Styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo h2{
+    background: linear-gradient(#FF42A5FF, #FF42A5, #0B0223);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span.logo-text {
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-item a{
+    font-size: 18px;
+    color: #3C354F;
+    transition: .2s ease;
+}
+.nav-item a:hover{
+    color:black;
+    font-weight: 500;
+}
+.follow-icon{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: 5px 1rem;
+    font-size: 18px;
+    color: #3C354F;
+}
+.follow-icon img{
+    width: 32px;
+    height: 28px;
+    margin: 0 5px;
+    transition: transform .3s ease-in-out;
+}
+.follow-icon a:hover img{
+    transform: scale(1.5);
+}
+
+/* Banner Section Styles */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}

@@ -1,0 +1,18 @@
+/*Responsive For Smalll Device*/
+@media screen and (max-width:576px) {
+    nav, .nav-item{
+        flex-direction: column;
+    }
+    nav .logo a{
+        font-size: 2rem;
+    }
+    .logo img{
+        width: 86px;
+        height: 40px;
+    }
+}
+
+
+
+/*Responsive For Medium Device*/
+/*Responsive For Large Device*/
