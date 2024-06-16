@@ -89,3 +89,43 @@ span.logo-text {
     align-items: center;
     gap: 4rem;
 }
+.banner-content> h2{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #0B0223;
+}
+.banner-title{
+        background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-size: 5.5rem;
+        font-weight: 800;
+        margin-top: 0;
+}
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    
+}
+.icon-box:hover img{
+    transform: scale(1.2);
+}
+.icon-box img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    padding: 3px;
+    transition: transform .3s ease-in-out;
+}
+.icon-box p{
+    font-size: 20px;
+    color: #534C64;
+    font-weight: 500;
+    margin: 1rem 0;
+}
