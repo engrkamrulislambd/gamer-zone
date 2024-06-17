@@ -44,6 +44,34 @@
     button.btn-secondary{
         width: 70%;
     }
+    .about-gamer{
+        flex-direction: column;
+        gap: 0;
+
+    }
+    .about-gamer img{
+        width: 100%;
+    }
+    .gamer-title{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .gamer-description{
+        text-align: justify;
+        padding: 1rem;
+    }
+    .gamer-content>button.btn-primary {
+        margin: 1rem 0 1rem 2rem;
+        position: static;
+    }
+    .gamer-quote {
+        font-size: 20px;
+        text-align: left;
+        padding: 10px;
+    }
+    .gamer-quote>span{
+        font-size: 20px;
+    }
 }
 
 

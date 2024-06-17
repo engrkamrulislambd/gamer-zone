@@ -168,4 +168,38 @@ button.btn-primary {
     justify-content: space-between;
     align-items: center;
     gap: 3rem;
+    margin: 5rem 0;
+}
+.gamer-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: right;
+    margin-bottom: 24px;
+}
+.gamer-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    text-align: right;
+    line-height: 30px;
+}
+.gamer-content>button.btn-primary {
+    position: relative;
+    left: 64%;
+    margin-right: 0;
+    margin-top: 2rem;
+}
+.gamer-quote{
+    font-size: 32px;
+    font-weight: 700;
+    color: #534C64;
+    text-align: right;
+}
+.gamer-quote>span{
+    font-size: 24px;
+    font-weight: 500;
 }
