@@ -74,6 +74,7 @@
     }
     .games-video {
         margin: 2rem 0;
+        padding: 0 1rem;
     }
     .video-title {
         font-size: 2.5rem;
@@ -84,6 +85,11 @@
     .video-card {
         padding: 1rem;
     }
+    .video-card img{
+        width: 100%;
+    }
+
+
     .play-instant-wrapper,
     .play-anytime-wrapper{
         flex-direction: column;
@@ -103,6 +109,22 @@
     }
     .play-anytime-content {
         order: 1;
+    }
+    .play-instant-image img,
+    .play-anytime-image img,
+    .career-image img{
+        width: 100%;
+    }
+    .career-wrapper{
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1.7rem;
+    }
+    .career-description{
+        gap: 2rem;
+    }
+    .career-description .right-content{
+        text-align: left;
     }
 }
 
